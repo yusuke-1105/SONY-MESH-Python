@@ -4,7 +4,8 @@
     ```cmd
     pip install bleak
     ```
-3. `mesh-controller.py`を実行し，以下の変数値を変更．
+3. `mesh-controller.py`を実行し，以下の変数値を変更．`mesh-allocation-template.csv`を参照し，使用したいブロックの値(上から数えた際のインデックス)に変更．
+    ```python
     ```python
     class Mesh:
         device_num = 0
